@@ -1,6 +1,9 @@
 body{
-    background-color: rgb(91, 110, 66);
+    background-color: black;
+}
+#BACK{
     background-image: url(https://cdn.cloudflare.steamstatic.com/steam/apps/300/0000000042.1920x1080.jpg?t=1570137070);
+    background-repeat: no-repeat;
 }
 #Title{
     color: gold;
@@ -8,18 +11,17 @@ body{
     font-family: tahoma;
 }
 #Title2{
-    color: black;
+    color: gold;
     font-family: Sans-serif;
     text-align: center;
     font-size: medium;
-    text-shadow: 2px 2px 3px gold;
+    text-shadow: 2px 2px 3px black;
 }
 #Info{
-    color: black;
-    text-shadow: 5px 5px 6px white;
+    color: gold;
+    text-shadow: 2px 2px 3px black;
     font-size: large;
     font-family: Times;
-    background-color: gold;
 }
 #VID{
     position: float;
@@ -28,4 +30,15 @@ body{
     width: 854px;
     border: 2px solid gold;
     box-sizing: border-box;
+}
+#Title3{
+    font-size: large;
+    color: red;
+    background-image: url();
+}
+#PL{
+    background-image: url(https://cdn.cloudflare.steamstatic.com/steam/apps/300/0000000023.1920x1080.jpg?t=1570137070);
+}
+#Info2{
+    color: red;
 }
